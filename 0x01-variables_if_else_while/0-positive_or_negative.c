@@ -8,7 +8,9 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * If statement checks if a random number is zero, positive or negative
+ * If statement checks if a random
+ * number is positive, negative 
+ * or is zero in the main function
 **/
 int main(void)
 {
