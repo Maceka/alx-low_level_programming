@@ -5,13 +5,13 @@
 
 
 /*
- * main - Entry point
- *
- * Return: Always 0 (Success)
- * If statement checks if a random
- * number is positive, negative 
- * or is zero in the main function
-**/
+	 * main function - Entry point
+	 * 
+	 * Please use it consistently.
+	 *
+	 * Description:  This function checks the n random number and
+	 * outputs if it's negative, positive or zero
+	 **/
 int main(void)
 {
 int n;
