@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
- * main - prints alphabets a-z
+ * print_alphabet - prints the alphabet in small caps
+ *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int i = 97;
+
+	while (i <= 122)
+	{
+		_putchar(i);
+		i++;
+	}
+	_putchar('\n');
+	return;
 }
