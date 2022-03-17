@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ * print_line - print lines the number of time in arg
+ * @n: number of time to be printed
+ * Return: void
+ */
+void print_line(int n)
+{
+	
+}
