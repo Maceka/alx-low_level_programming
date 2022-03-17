@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * more_numbers - prints a string of numbers 1 - 14
- *
- * Return: void (Success)
+ * more_numbers - prints 10 times the numbers, from 0 to 14
+ * followed by a new line
  */
 void more_numbers(void)
 {
-	char num[] = "01234567891011121314";
-	int loop, i;
+	int i, j;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (loop = 0; loop <= 20; loop++)
+		for (j = 0; j < 15; j++)
 		{
-			_putchar(num[loop]);
+			if (j >= 10)
+				_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
